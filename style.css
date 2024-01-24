@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(1, 30, 41);
+    color: rgb(232, 232, 232);
+}
+
+header {
+    display: block;
+    padding: .5em 0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+}
