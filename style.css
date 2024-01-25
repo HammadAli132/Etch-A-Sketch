@@ -28,13 +28,17 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 1em 10em;
+    gap: 2em;
 }
 
 #sketchPad {
     width: 500px;
     height: 500px;
     background-color: rgb(232, 232, 232);
+    flex-shrink: 0;
+    border-radius: 5px;
 }
 
 #inputBox {
@@ -42,6 +46,7 @@ main {
     border: 2px solid rgb(232, 232, 232);
     border-radius: 5px;
     line-height: 3em;
+    flex-shrink: 0;
 }
 
 #inputBox button {
@@ -61,6 +66,6 @@ main {
 footer {
     background-color: rgb(0, 23, 33);
     text-align: center;
-    padding: 1rem;
+    padding: 1em;
     margin-top: auto;
 }
